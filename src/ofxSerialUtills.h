@@ -37,7 +37,7 @@ public:
         return commandConfig;
     }
     
-    void keySerect(const int key){
+    void keySelect(const int key){
         if(key == OF_KEY_DOWN){
             if(++selectNum > numOfDevice)
                 selectNum = 0;
